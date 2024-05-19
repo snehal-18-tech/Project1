@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+
+    background-color: skyblue;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: baseline;
+    height: 60px;
+    background-color: rgb(3, 3, 83);
+    color: white;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+    text-decoration: none;
+}
+.left{
+    margin-left: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    margin-bottom: 10px;
+    color: white;
+}
+h2{
+    margin-bottom: 10px;
+    color: black;
+}
+h1{
+    background-color: #1e2167;
+}
+p {
+    margin-bottom: 10px;
+    color: black;
+}
+
+section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+#videoContainer {
+    white-space: nowrap; /* Prevents wrapping */
+    margin-bottom: 20px; /* Add margin to separate from other sections */
+}
+
+
+.video1{
+    display: inline-block; /* Display videos in a line */
+    margin-right: 30px; /* Add some space between videos */
+    vertical-align: top; /* Align videos at the top */
+    width:50%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+}
+h3{
+    color:#fff;
+}
+#img1{
+    border:1px solid black;
+    max-width: 100%;
+    height: auto;
+}
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        padding: 0 20px;
+    }
+    section {
+        padding: 15px;
+    }
+    footer {
+        padding: 15px;
+    }
+        .video1{
+            display: block; /* Change display to block for smaller screens */
+            margin-right: 0; /* Remove margin between videos */
+            margin-bottom: 10px; /* Add some space below each video */
+        }
+}
+
+

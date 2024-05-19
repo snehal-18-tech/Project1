@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: rgb(238, 238, 246);
+    color:white;
+    font-family: 'Poppins',sans-serif;
+    justify-content: center;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80px;
+    background-color: rgb(18,18,62);
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+}
+nav ul li a:hover{
+    color:rgb(153,153,226);
+    font-size: 1.02rem;
+}
+.left{
+    font-size:1.5rem;
+}
+/*#search{
+    width:200px;
+    height:20px;
+}
+#image{
+   
+    width:20px;
+    height:20px;
+}*/
+
+
+/*.sea{
+    display:inline;
+}*/
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+input[type="search"] {
+    padding: 8px;
+    border: none;
+    /*border-radius: 4px;*/
+    outline: none;
+    width: 200px;
+}
+
+button[type="submit"] {
+    background-color:white;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    /*border-radius: 0 4px 4px 0;*/
+    cursor: pointer;
+}
+
+/*button[type="submit"]:hover {
+    background-color: #555;
+}*/
+
+.bi {
+    vertical-align: middle;
+    margin-left: 5px; /* Adjust the spacing between the input and the icon */
+}
+#white{
+    background-color:aqua;
+}
+
